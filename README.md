@@ -29,6 +29,19 @@ One neat trick is that you can also create custom one-off templates by adding th
 - `tag-news.hbs` - Custom template for `/tag/news/` archive
 - `author-ali.hbs` - Custom template for `/author/ali/` archive
 
+# Routes
+```
+/: landing
+/about/: about
+
+collections:
+/projects/:
+  permalink: /projects/{slug}/
+  filter: tag:[projects]
+  template:
+    - post
+
+```
 
 # Development
 

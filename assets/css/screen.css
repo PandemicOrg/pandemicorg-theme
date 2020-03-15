@@ -838,7 +838,6 @@ The first post in the list is styled to be bigger than the others and take over
 the full width of the grid to give it more emphasis. Wrapped in a media query to
 make sure this only happens on large viewports / desktop-ish devices.
 
- */
 
 @media (min-width: 795px) {
     .post-card-large {
@@ -895,6 +894,7 @@ make sure this only happens on large viewports / desktop-ish devices.
     }
 }
 
+*/
 
 /* Adjust some margins for smaller screens */
 @media (max-width: 1170px) {
